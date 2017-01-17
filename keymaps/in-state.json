@@ -1,0 +1,6 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-i": "in-state:create",
+        "ctrl-alt-shift-i": "in-state:create_sting"
+    }
+}

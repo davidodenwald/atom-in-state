@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "in-state",
+          "submenu": [
+            {
+              "label": "Create",
+              "command": "in-state:create"
+            },
+            {
+              "label": "Create_String",
+              "command": "in-state:create_sting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

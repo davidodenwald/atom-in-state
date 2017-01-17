@@ -1,0 +1,17 @@
+{
+    "name": "in-state",
+    "main": "./lib/in-state",
+    "version": "0.1.0",
+    "description": "Creates a SQL-In-Statement of selected lines.",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "in-state:create",
+        "atom-workspace": "in-state:create_string"
+    },
+    "repository": "https://github.com/atom/in-state",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
+}
