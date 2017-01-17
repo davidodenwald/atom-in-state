@@ -12,7 +12,7 @@
             },
             {
               "label": "Create_String",
-              "command": "in-state:create_sting"
+              "command": "in-state:create_string"
             }
           ]
         }

@@ -3,7 +3,10 @@
     "main": "./lib/in-state",
     "version": "0.1.0",
     "description": "Creates a SQL-In-Statement of selected lines.",
-    "keywords": [],
+    "keywords": [
+        "SQL",
+        "Statement"
+    ],
     "activationCommands": {
         "atom-workspace": "in-state:create",
         "atom-workspace": "in-state:create_string"
