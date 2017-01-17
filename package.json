@@ -8,7 +8,7 @@
         "atom-workspace": "in-state:create",
         "atom-workspace": "in-state:create_string"
     },
-    "repository": "https://github.com/atom/in-state",
+    "repository": "https://github.com/davidodenwald/atom-in-state",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
