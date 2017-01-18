@@ -1,7 +1,7 @@
 {
     "name": "in-state",
     "main": "./lib/in-state",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Creates a SQL-In-Statement of selected lines.",
     "keywords": [
         "SQL",
@@ -23,7 +23,15 @@
             "title": "Character Per Line",
             "description": "The amount of characters before a linebreak",
             "type": "integer",
-            "default": 100
+            "default": 100,
+            "order": 1
+        },
+        "AutoCopy": {
+            "title": "AutoCopy to Clipboard",
+            "description": "Automaticly copy the text into the clipboard",
+            "type": "boolean",
+            "default": false,
+            "order": 2
         }
     }
 }
