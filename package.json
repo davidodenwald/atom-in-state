@@ -13,7 +13,7 @@
       "in-state:create_string"
     ]
   },
-  "repository": "https://github.com/davidodenwald/atom-in-state",
+  "repository": "https://github.com/davidodenwald/atom-in-state.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
