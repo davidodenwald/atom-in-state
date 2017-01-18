@@ -1,37 +1,38 @@
 {
-    "name": "in-state",
-    "main": "./lib/in-state",
-    "version": "0.3.0",
-    "description": "Creates a SQL-In-Statement of selected lines.",
-    "keywords": [
-        "SQL",
-        "Statement"
-    ],
-    "activationCommands": {
-        "atom-workspace": [
-            "in-state:create", "in-state:create_string"
-        ]
+  "name": "in-state",
+  "main": "./lib/in-state",
+  "version": "1.0.0",
+  "description": "Creates a SQL-In-Statement of selected lines.",
+  "keywords": [
+    "SQL",
+    "Statement"
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "in-state:create",
+      "in-state:create_string"
+    ]
+  },
+  "repository": "https://github.com/davidodenwald/atom-in-state",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "configSchema": {
+    "CharPerLine": {
+      "title": "Character Per Line",
+      "description": "The amount of characters before a linebreak",
+      "type": "integer",
+      "default": 100,
+      "order": 1
     },
-    "repository": "https://github.com/davidodenwald/atom-in-state",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {},
-    "configSchema": {
-        "CharPerLine": {
-            "title": "Character Per Line",
-            "description": "The amount of characters before a linebreak",
-            "type": "integer",
-            "default": 100,
-            "order": 1
-        },
-        "AutoCopy": {
-            "title": "AutoCopy to Clipboard",
-            "description": "Automaticly copy the text into the clipboard",
-            "type": "boolean",
-            "default": false,
-            "order": 2
-        }
+    "AutoCopy": {
+      "title": "AutoCopy to Clipboard",
+      "description": "Automaticly copy the text into the clipboard",
+      "type": "boolean",
+      "default": false,
+      "order": 2
     }
+  }
 }
