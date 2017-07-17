@@ -9,3 +9,16 @@ Create in statement with values as they are:
 Create in statement and surround values with apostrophes:
 - Select lines
 - Press Ctrl+Alt+Shift+I
+
+## Install
+
+Get Code:
+```
+git clone https://github.com/davidodenwald/atom-in-state.git && cd atom-in-state
+```
+
+Add it to Atom:
+```
+apm install
+apm link .
+```
